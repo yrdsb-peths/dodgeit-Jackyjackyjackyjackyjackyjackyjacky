@@ -12,7 +12,7 @@ public class Hero extends Actor
         
         if(moved)
         {
-            setLocation(100,300);
+            setLocation(100, 300);
         }
         else
         {
