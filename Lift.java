@@ -4,7 +4,7 @@ public class Lift extends Actor
 {
     public void act()
     {
-        move(-3);
+        move(-8);
         if(getX() <= 0)
         {
             resetLift();
