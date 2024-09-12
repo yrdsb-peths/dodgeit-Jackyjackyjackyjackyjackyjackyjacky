@@ -9,6 +9,12 @@ public class Lift extends Actor
         {
             resetLift();
         }
+        if(isTouching(Hero.class))
+        {
+            Circle circle = new Circle();
+            getWorld().addObject(circle, 300, 200);
+            getWorld().removeObject(this);
+        }
     }
     public void resetLift()
     {
